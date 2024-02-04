@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #ededed;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item{
+    margin: 15px;
+    text-align: center;
+    flex-basis: 200px;
+}
+
+.one, .three,.five {
+    background-color: #26d9d0;
+    padding: 25px;
+    height: 75px;
+    width: 75px;
+}
+
+.two, .four,.six{
+    background-color: #FF0000;
+    padding: 25px;
+    height: 75px;
+    width: 75px;
+}
+
+.one{
+    order: 1;
+}
+.two,.three{order: 2;}
+.four{order: 3;}
