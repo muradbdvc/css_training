@@ -1,0 +1,20 @@
+@import "partials/classes";
+@import "partials/mixins";
+@import "partials/variables";
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    @include theme(background, $color-light-bg, $color-dark-bg);
+    @include theme(color, $color-dark, $color-light);
+    font: {
+        family:$font-base-fimily;
+        size:$font-base-size;
+        }
+    overflow-y:hidden;
+}
