@@ -1,0 +1,21 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.nav-menu{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.nav-menu .nav{
+
+}
+
+.nav-menu .nav .nav-item{
+
+}
+
+.nav-menu .nav .nav-item a{
+
+}
