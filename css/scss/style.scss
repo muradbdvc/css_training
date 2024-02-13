@@ -10,11 +10,15 @@
 }
 
 body{
-    @include theme(background, $color-light-bg, $color-dark-bg);
+    @include theme( background, $color-light-bg, $color-dark-bg);
     @include theme(color, $color-dark, $color-light);
     font: {
-        family:$font-base-fimily;
+        // family: $font-base-fimily;
         size:$font-base-size;
         }
     overflow-y:hidden;
+}
+
+.nav-item{
+    flex-grow: 1;
 }

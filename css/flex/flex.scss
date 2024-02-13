@@ -1,0 +1,62 @@
+/*
+.one{
+    order: 1;
+}
+.two,.three{order: 2;}
+.four{order: 3;}
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	background-color: #ededed;
+	margin: 15px;
+	padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.nav{
+	display: flex;
+	flex-flow: row wrap;
+}
+.item {
+	text-align: center;
+	flex-basis: 200px;
+}
+.one {
+	background-color: #26d9d0;
+	padding: 25px;
+	height: 75px;
+	width: 75px;
+}
+.three {
+	background-color: #26d9d0;
+	padding: 25px;
+	height: 75px;
+	width: 75px;
+}
+.five {
+	background-color: #26d9d0;
+	padding: 25px;
+	height: 75px;
+	width: 75px;
+}
+.two {
+	background-color: #FF0000;
+	padding: 25px;
+	height: 75px;
+	width: 75px;
+}
+.four {
+	background-color: #FF0000;
+	padding: 25px;
+	height: 75px;
+	width: 75px;
+}
+.six {
+	background-color: #FF0000;
+	padding: 25px;
+	height: 75px;
+	width: 75px;
+}
